@@ -254,3 +254,85 @@ CSS Tools: Reset CSS。链接：<https://meyerweb.com/eric/tools/css/reset/>
 
 所以，如果我们是通过 Ajax 提交表单数据，也建议加上 form。
 
+### form card items和a标签
+- ul li card item和a标签要怎么用
+
+https://inclusive-components.design/cards/
+
+Write concise HTML, for example, do not write unnecessary <div>, because when use one div, it will have 3: before, after,itself
+
+### css selector performance 
+High —>low
+ID, e.g. #header
+Class, e.g. .promo
+Type, e.g. div
+Adjacent sibling, e.g. h2 + p
+Child, e.g. li > ul
+Descendant, e.g. ul a
+Universal, i.e. *
+Attribute, e.g. [type="text"]
+Pseudo-classes/-elements, e.g. a:hover
+
+### 零散知识点
+
+- LTR RTL :
+div {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+} 
+ Unicode is used to together with the direction property to set or return whether the text should be overridden to support multiple languages in the same document
+
+
+- U tags 
+
+	Use u tag represents some text that is unarticulated and styled differently from normal text, such as misspelled words or proper names in Chinese text.
+	<p>This is some <u>mispeled</u> text.</p>
+
+- Raster image vs vector image
+
+ Raster:
+
+Comprised of pixels, arranged to form an image
+
+Constrained by resolution and dimensions
+
+Capable of rich, complex color blends
+
+Large file sizes (but can be compressed)
+
+File types include .jpg, .gif, .png, .tif, .bmp, .psd; plus .eps and .pdf when created by raster programs
+
+Raster software includes Photoshop and GIMP
+
+Perfect for “painting”
+
+Vector:
+
+Comprised of paths, dictated by mathematical formulas
+
+Infinitely scalable
+
+Difficult to blend colors without rasterizing
+
+Small file sizes
+
+File types include .ai, .cdr, .svg; plus .eps and .pdf when created by vector programs
+
+Vector software includes Illustrator, CorelDraw, and InkScape
+
+Perfect for “drawing”
+
+
+### icons history
+
+https://www.lambdatest.com/blog/its-2019-lets-end-the-debate-on-icon-fonts-vs-svg-icons/
+
+      Traditional image : not scalable, multi-time requests call,
+      Image sprite: if you change color or size, you need an ently new image all together.
+      Font icon: icon fonts  can generate multi times requests, invisible text flashing when the library is loading, blank space if the browser doesn’t recognize it. 
+     Svg icons: Scalable Vector Graphics in XML format. Good accessibility , svg has built in semantic elements, like titles, desc.Inline SVG doesn’t increase several requests.
+
+### Flex and grid 
+
+    https://codepen.io/will4/pen/abLYzZG
+    https://codepen.io/will4/pen/jOaYPWW
