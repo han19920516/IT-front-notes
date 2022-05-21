@@ -334,5 +334,4 @@ https://www.lambdatest.com/blog/its-2019-lets-end-the-debate-on-icon-fonts-vs-sv
 
 ### Flex and grid 
 
-    https://codepen.io/will4/pen/abLYzZG
-    https://codepen.io/will4/pen/jOaYPWW
+   private contents, see 'my favorite' in wechat
